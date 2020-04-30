@@ -1,0 +1,74 @@
+{
+    /* 共通設定 */
+    "window.zoomLevel": 0,
+    "debug.allowBreakpointsEverywhere": true,
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+    "terminal.integrated.fontSize": 13,
+    "vim.easymotion": false,
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "vim.whichwrap": "h,l,<,>,[,]",
+    "vim.leader": "<Space>",
+    "vim.useSystemClipboard": true,
+    "vim.highlightedyank.enable": true,
+    "vim.hlsearch": true,
+    "workbench.colorTheme": "Monokai Dimmed",
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors.insert": "#5f8787",
+    "vim.statusBarColors.normal": "#294372",
+    "vim.statusBarColors.visual": "#af5f87",
+    "vim.statusBarColors.visualblock": "#af5f87",
+    "vim.statusBarColors.visualline": "#af5f87",
+    "vim.statusBarColors.replace": "#5f0000",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#294372",
+        "statusBar.noFolderBackground": "#294372",
+        "statusBar.debuggingBackground": "#294372"
+    },
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "explorer.openEditors.visible": 0,
+    "workbench.editor.openPositioning": "first",
+    "workbench.editor.tabSizing": "shrink",
+    "files.autoGuessEncoding": true,
+    "workbench.editor.enablePreview": false,
+    "files.trimTrailingWhitespace": true,
+    "editor.renderWhitespace": "all",
+    "explorer.autoReveal": false,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "ctrl+j"
+            ],
+            "after": [
+                "4",
+                "j",
+            ]
+        },
+        {
+            "before": [
+                "ctrl+k"
+            ],
+            "after": [
+                "4",
+                "k",
+            ]
+        },
+    ],
+    "editor.lineNumbers": "relative",
+    "workbench.startupEditor": "none",
+    "plantuml.render": "PlantUMLServer",
+    "plantuml.server": "http://localhost:1991",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.tree.indent": 20,
+    "workbench.tree.renderIndentGuides": "always",
+    "editor.showFoldingControls": "always",
+    /* 個別設定 */
+    "python.venvFolders": [
+        ".pyenv"
+    ],
+    "python.venvPath": "~/.pyenv",
+    "languageServerHaskell.hieExecutablePath": "/Users/juryokun/.local/bin/hie",
+    "languageServerHaskell.useCustomHieWrapperPath": "/Users/juryokun/.local/bin/hie-wrapper",
+    "languageServerHaskell.useCustomHieWrapper": true,
+}
