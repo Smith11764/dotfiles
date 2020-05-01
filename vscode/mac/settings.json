@@ -55,6 +55,12 @@
             ]
         },
     ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j","j"],
+            "after": ["<Esc>"]
+        }
+    ],
     "editor.lineNumbers": "relative",
     "workbench.startupEditor": "none",
     "plantuml.render": "PlantUMLServer",
