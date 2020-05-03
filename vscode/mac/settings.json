@@ -2,7 +2,7 @@
     /* 共通設定 */
     "window.zoomLevel": 0,
     "debug.allowBreakpointsEverywhere": true,
-    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+    "terminal.integrated.fontFamily": "Courier",
     "terminal.integrated.fontSize": 13,
     "vim.easymotion": false,
     "editor.formatOnType": true,
@@ -12,7 +12,7 @@
     "vim.useSystemClipboard": true,
     "vim.highlightedyank.enable": true,
     "vim.hlsearch": true,
-    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.colorTheme": "Monokai",
     "vim.statusBarColorControl": true,
     "vim.statusBarColors.insert": "#5f8787",
     "vim.statusBarColors.normal": "#294372",
@@ -57,8 +57,13 @@
     ],
     "vim.insertModeKeyBindings": [
         {
-            "before": ["j","j"],
-            "after": ["<Esc>"]
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
         }
     ],
     "editor.lineNumbers": "relative",
